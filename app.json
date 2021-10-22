@@ -27,6 +27,14 @@
     },
     "AUTH_CHANNEL": {
       "description": "List down the user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram @OwnErObOT"
+      },
+    "DB_URL": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com Watch This Video https://youtu.be/HhHzCfrqsoE",
+            "value": ""
+     },
+     "DB_NAME":{ 
+               "description":"Your Mongo DB Database Name ",
+                "value": "my",
     }
   },
   "addons": [{
